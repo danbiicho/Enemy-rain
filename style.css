@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg {
+    background-image: url("./images/bg.png");    
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
+
+#hero {    
+    width: 35px;
+    height: 54px; 
+    position: absolute;
+    bottom: 0;      
+    left: 50%;
+    margin-left: -17px;    
+    background-image: url("./images/hero.png");
+}
+
+.enemy {
+    background-image: url("./images/enemy.png");  
+    width: 45px;
+    height: 54px;
+    position: absolute;
+    background-repeat: no-repeat;
+    /* top: 250px;    */
+    /* display: none;     */
+}
+
